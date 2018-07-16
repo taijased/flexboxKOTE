@@ -1,0 +1,70 @@
+.main{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	max-width: 1000px;
+	margin:20px auto;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+	flex-flow: row wrap;
+}
+.bl{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex:1 1 300px;
+	text-align: center;
+	flex-flow: row wrap;
+}
+.fl1{
+	flex:1 1 100%;	
+}
+.fl2{
+	
+}
+.fl3{
+
+}
+.fl4{
+}
+.fl5{
+}
+.fl6{
+	flex:1 1 100%;
+}
+
+.image img{
+	width: 100%;
+	height: auto;
+	
+}
+h3{
+	color:#2AA1DD;
+	margin 0 10px 0 0;
+
+
+}
+.image{
+	margin:10px;
+	flex:1 1 200px;
+}
+.text{
+	margin: 10px;
+	flex:1 1 150px;
+}
+a.button{
+	background:#406cd0;
+	color:#fff;
+	padding: 5px 10px;
+	border-radius: 2px;
+	text-decoration: none;
+	transition: 0.3s;
+}
+a.button:hover{
+	background:#E65146;
+}
